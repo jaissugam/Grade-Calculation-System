@@ -1,21 +1,31 @@
 <html>
+    <head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
     <body>
      <style>
          body{
-             background-color: #001f3f;
+            background:linear-gradient(lightblue,purple);
          }
          table{
              margin-left:auto;
              margin-right:auto;
              color:dimgray;
-             background-color:bisque;
-             font-size:25px;
+             background-color:lightblue;
+             font-size:20px;
              width:50%;
-             height: 100%;
+             height: 50%;
              border-radius:30px;
              text-align: center;
+             border:none;
          }
-         
+         @media screen and (max-width:700px){
+             table{
+                 width:100%;
+                 margin:auto;
+                 margin-top:5%;
+                 height:75%;
+                 border:none;
+             }
+         }
     </style>
     </body>
 <?php
@@ -64,7 +74,7 @@ else
 $sql="INSERT INTO students(name,grade,dob,cgpa,physics,chemistry,biology,maths,english) VALUES('$name','$grade','$dob','$cgpa','$physics','$chemistry','$biology','$maths','$english')";
 if(mysqli_query($con,$sql))
 {
-    echo "<table border=1>";
+    echo "<table>";
     echo "<tr>";
     echo "<td>";
     echo "Name:&nbsp";
