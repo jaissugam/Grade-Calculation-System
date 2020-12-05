@@ -1,23 +1,36 @@
 <html>
+    <head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
     <body>
      <style>
          body{
-             background-color: #001f3f;
+            background:linear-gradient(lightblue,purple);
          }
          fieldset{
              margin-left:auto;
              margin-right:auto;
              color:dimgray;
-             background-color:bisque;
+             background-color:lightblue;
              font-size:25px;
              width:40%;
              height: 80%;
              border-radius:30px;
              text-align: center;
+             padding:2%;
+             border:none;
          }
          legend{
              color:white;
-             font-size:40px;
+             font-size:50px;
+         }
+         @media screen and (max-width:700px){
+             fieldset{
+                 font-size:30px;
+                 width:100%;
+                 max-height:100%;
+                 padding:5px;
+                 background:linear-gradient(purple,lightblue);
+                 color:white;
+             }
          }
          
     </style>
@@ -36,7 +49,8 @@ if(isset($_POST['submit2']))
     $result=mysqli_query($con,$sql2);
     if(mysqli_num_rows($result)==0)
     {
-        echo "No record found";
+        echo '<script>window.alert("No records found")</script>';
+        echo '<script>window.location.assign("index.php")</script>';
     }
     else
     {
