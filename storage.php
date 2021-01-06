@@ -108,7 +108,6 @@ if(mysqli_query($con,$sql))
     echo "</td>";
     echo "</tr>";
     echo "</table>";
-    //echo "Record stored successfully";
 }
 else
 {
