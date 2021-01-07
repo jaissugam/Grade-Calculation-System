@@ -29,7 +29,7 @@
     </style>
     </body>
 <?php
-$con=mysqli_connect('localhost','root','','dbms1');
+$con=mysqli_connect('localhost','root','','dbms');
 if(!$con)
 {
     die("Connection failed :".mysqli_connect_error());
@@ -108,7 +108,6 @@ if(mysqli_query($con,$sql))
     echo "</td>";
     echo "</tr>";
     echo "</table>";
-    //echo "Record stored successfully";
 }
 else
 {
