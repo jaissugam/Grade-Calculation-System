@@ -2,7 +2,7 @@
     <head>
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+        <title>Grade Calculation System</title>
         <style>
             html{
                 scroll-behaviour:smooth;
