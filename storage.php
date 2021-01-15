@@ -3,7 +3,7 @@
     <body>
      <style>
          body{
-            background:linear-gradient(lightblue,purple);
+            background:linear-gradient(lightblue,blue);
          }
          table{
              margin-left:auto;
