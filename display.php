@@ -20,7 +20,6 @@
              table{
                  width:100%;
                  font-size:10px;
-                 height:100%;
              }
          }
          
