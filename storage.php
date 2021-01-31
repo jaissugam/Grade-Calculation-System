@@ -10,7 +10,7 @@
              margin-right:auto;
              color:dimgray;
              background-color:lightblue;
-             font-size:20px;
+             font-size:15px;
              width:50%;
              height: 50%;
              border-radius:30px;
@@ -19,7 +19,7 @@
          }
          @media screen and (max-width:700px){
              table{
-                 width:100%;
+                 width:90%;
                  margin:auto;
                  margin-top:5%;
                  height:75%;
