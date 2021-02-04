@@ -38,8 +38,8 @@
                 border:none;
             }
             legend{
-                font-size:40px;
-                font-weight: 200;
+                font-size:30px;
+                font-weight: 300;
                 color:purple;
             }
             input[type=text],input[type=date]{
