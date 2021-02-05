@@ -10,7 +10,7 @@
              margin-right:auto;
              color:dimgray;
              background-color:lightblue;
-             font-size:25px;
+             font-size:30px;
              width:40%;
              height: 80%;
              border-radius:30px;
@@ -27,7 +27,7 @@
                  font-size:30px;
                  width:100%;
                  max-height:100%;
-                 padding:5px;
+                 padding:8px;
                  background:linear-gradient(purple,lightblue);
                  color:white;
              }
