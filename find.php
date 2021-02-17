@@ -28,7 +28,7 @@
                  width:100%;
                  max-height:100%;
                  padding:8px;
-                 background:linear-gradient(purple,lightblue);
+                 background:linear-gradient(blue,lightblue);
                  color:white;
              }
          }
