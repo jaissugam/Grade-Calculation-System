@@ -37,7 +37,7 @@
     </body>
 
 <?php
-$con=mysqli_connect('localhost','root','','dbms1') or die("Connection error: ".mysqli_connect_error());
+$con=mysqli_connect('localhost','root','','dbms') or die("Connection error: ".mysqli_connect_error());
 if(isset($_POST['submit2']))
 {
     $id=$_POST['id'];
