@@ -2,9 +2,7 @@
     <head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
     <body>
      <style>
-         body{
-             background:linear-gradient(lightblue,purple);
-         }
+         
          table{
              margin-left:auto;
              margin-right:auto;
